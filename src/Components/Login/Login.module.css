@@ -1,0 +1,38 @@
+.login {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-height: 500px;
+    gap: 2rem;
+}
+.login::before{
+    display: block;
+    max-height: calc(100vh - 100px);
+    content: '';
+    background: url('../../img/fundo.png' ) no-repeat center center;
+    background-size: cover;
+    border-radius: 20px;
+    
+}
+@media (max-width: 700px){
+    .login::before{
+        display: none;
+    }
+    .login {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 5rem;
+        width: auto;
+       
+    
+        }
+}
+
+
+
+.login h1 {
+    color: #1d1d1d;
+}
+.error {
+    color: #b81414 !important;
+}

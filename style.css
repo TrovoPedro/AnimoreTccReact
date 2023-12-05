@@ -1,0 +1,123 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: none;
+  padding: none;
+}
+
+html {
+  --font: 'Sora', sans-serif;
+  --font-title:'Bebas Neue', sans-serif;
+  --font-size: 1.2rem;
+  --color: #19f;
+  --color-light: #adf;
+  --color-dark: #018;
+  --radius: 0.2rem;
+}
+
+body {
+  padding-top: 100px;
+  padding-left: 1rem;
+  
+}
+
+body,
+input,
+textarea,
+button {
+  font-size: var(--font-size);
+  font-family: var(--font);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-title);
+  font-size: 100px;
+  color: #D9B490;
+  letter-spacing: 4px;
+}
+p {
+
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 1rem 0;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+input,
+textarea {
+  display: block;
+  border: 1px solid #ccc;
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: var(--radius);
+  background: #eee;
+  transition: 0.2s;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--color);
+  background: white;
+  box-shadow: 0 0 0 3px var(--color-light);
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: var(--radius);
+  transition: 0.1s;
+  background: #4BADAC;
+  color: white;
+  padding: 1rem 2.6rem;
+  transition: 0.5s;
+}
+
+button:hover,
+button:focus {
+  background: #786CAC;
+  outline: none;
+}
+
+button:active {
+  box-shadow: 0 0 0 3px var(--color), 0 0 0 4px var(--color);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: wait;
+}
+
+hr {
+  border: 2px solid black;
+  margin: 2rem auto;
+}
+.VictoryContainer {
+  height: initial !important;
+}

@@ -1,0 +1,127 @@
+.comments {
+    overflow-y: auto;
+    word-break: break-word;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.liAlt {
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    box-shadow: rgba(0, 0, 0, 0.05) -3px 2px 6px 1px;
+    padding: 0.5rem;
+    border-radius: 10px;
+    max-width: 500px;
+    height: auto;
+}
+.liAlt:nth-child(1) {
+    color: #4BADAC;
+}
+.liAlt:nth-child(2) {
+    color: #C1D64D;
+}
+.liAlt:nth-child(3) {
+    color: #786CAC;
+}
+.liAlt:nth-child(4) {
+    color: #E27A3B;
+}
+.liAlt:nth-child(5) {
+    color: #D33030;
+}
+.liAlt:nth-child(6) {
+    color: #F3BF38;
+}
+.liAlt:nth-child(7) {
+    color: #D9B490;
+}
+.liAlt:nth-child(8) {
+    color: #4BADAC;
+}
+.liAlt:nth-child(9) {
+    color: #C1D64D;
+}
+.liAlt:nth-child(10) {
+    color: #786CAC;
+}
+.liAlt:nth-child(11) {
+    color: #E27A3B;
+}
+.liAlt:nth-child(12) {
+    color: #D33030;
+}
+.liAlt:nth-child(13) {
+    color: #F3BF38;
+}
+.liAlt:nth-child(14) {
+    color: #D9B490;
+}
+.liAlt:nth-child(15) {
+    color: #4BADAC;
+}
+.liAlt:nth-child(16) {
+    color: #C1D64D;
+}
+.liAlt:nth-child(17) {
+    color: #786CAC;
+}
+.liAlt:nth-child(18) {
+    color: #E27A3B;
+}
+.liAlt:nth-child(19) {
+    color: #D33030;
+}
+.liAlt:nth-child(20) {
+    color: #F3BF38;
+}
+.liAlt:nth-child(21) {
+    color: #D9B490;
+}
+.liAlt:nth-child(22) {
+    color: #4BADAC;
+}
+.liAlt:nth-child(23) {
+    color: #C1D64D;
+}
+.liAlt:nth-child(24) {
+    color: #786CAC;
+}
+.liAlt:nth-child(25) {
+    color: #E27A3B;
+}
+.liAlt:nth-child(26) {
+    color: #D33030;
+}
+.liAlt:nth-child(27) {
+    color: #F3BF38;
+}
+.liAlt:nth-child(28) {
+    color: #D9B490;
+}
+
+.liAlt span{
+    color: #1d1d1d;
+}
+
+.input {
+    display: block;
+    width: 70%;
+    border: none;
+    height: 100px;
+    resize: none;
+    box-shadow: rgba(0, 0, 0, 0.05) -3px 2px 6px 1px;
+    padding: 1rem;
+    
+}
+.align {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+.botao {
+    height: 100px;
+}

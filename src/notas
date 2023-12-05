@@ -1,0 +1,23 @@
+  async function autoLogin() {
+            const token = window.localStorage.getItem('token');
+            if(token) {
+                try{
+                    setError(null);
+                    setLoading(true);
+                const {url, options} = TOKEN_VALIDATE_POST(token);
+                const response = await fetch(url, options);
+                const json = await response.json()
+                if(!response.ok) throw new Error('Token invalido')
+                await getUser(token)
+                console.log(json)}
+                catch (err){
+                    userLogout();
+
+                }
+                finally {
+                    setLoading(false);
+
+                }
+            }
+        }
+        autoLogin();
